@@ -144,7 +144,7 @@ vagrant up
 - **Debian** Bookworm, Bullseye
 - **Ubuntu** 20.04, 22.04, 24.04
 - **CentOS/RHEL** [8, 9](docs/operating_systems/centos.md#centos-8)
-- **Fedora** 37, 38, 39, 40
+- **Fedora** 39, 40
 - **Fedora CoreOS** (see [fcos Note](docs/operating_systems/fcos.md))
 - **openSUSE** Leap 15.x/Tumbleweed
 - **Oracle Linux** [8, 9](docs/operating_systems/centos.md#centos-8)
@@ -201,7 +201,7 @@ Note: Upstart/SysV init based OS types are not supported.
 
 ## Requirements
 
-- **Minimum required version of Kubernetes is v1.28**
+- **Minimum required version of Kubernetes is v1.29**
 - **Ansible v2.14+, Jinja 2.11+ and python-netaddr is installed on the machine that will run Ansible commands**
 - The target servers must have **access to the Internet** in order to pull docker images. Otherwise, additional configuration is required (See [Offline Environment](docs/operations/offline-environment.md))
 - The target servers are configured to allow **IPv4 forwarding**.
